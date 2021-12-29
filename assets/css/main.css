@@ -3147,7 +3147,7 @@ button:disabled,
 }
 
 .board_individual_container {
-  display: flex;
+ display: flex;
  font-size: 16px;
  flex-direction: column;
  padding-left: 2.5%;
@@ -3165,9 +3165,17 @@ button:disabled,
   object-fit: cover;
   margin: auto;
 }
-.individual_member_description {
+.individual_member_description{
 display: flex;
 flex-direction: column;
-width: 80%;
+width: 100%;
 
+}
+.individual_member_description p:first-child {
+ color: black;
+}
+.individual_member_description p {
+  /* overflow-wrap: break-word; */
+  width: 70%;
+  margin: auto 5%;
 }
