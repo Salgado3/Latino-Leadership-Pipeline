@@ -3103,8 +3103,14 @@ button:disabled,
   margin-top: 0;
   padding-top: 0;
 }
+.major {
+  font-size: 2rem;
+}
 
-
+.content_aboutUs {
+  margin-left: 3.25%;
+  font-size: 1.75rem;
+}
 
 .session_div {
   border-bottom: 2px solid black;
